@@ -4,11 +4,11 @@ import Timeline from "./timeline";
 
 const timelineData = [
   {
-    year: "2002",
-    title: "LinkedIn",
+    year: "1957",
+    title: "ARPA",
     description:
-      "A business- and employment-oriented social networking service that operates via websites and mobile apps",
-    icon: "/linkedin-icon.png",
+      "Organismo impulsor del desarrollo tecnológico",
+    icon: "/arpa.png",
     category: "internet",
   },
   {

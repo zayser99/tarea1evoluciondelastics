@@ -98,11 +98,11 @@ export default function Timeline({ data }: TimelineProps) {
               <div
                 className={`w-5/12 ${index % 2 === 0 ? "pl-8" : "pr-8"} flex ${index % 2 === 0 ? "justify-start" : "justify-end"}`}
               >
-                <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center shadow-lg">
+                <div className="w-50 h-50 bg-white rounded-lg flex items-center justify-center shadow-lg">
                   <img
                     src={item.icon || "/placeholder.svg"}
                     alt={`${item.title} icon`}
-                    className="w-12 h-12 object-contain"
+                    className="w-50 h-50 object-contain"
                     onError={(e) => {
                       // Fallback si la imagen no carga
                       const target = e.target as HTMLImageElement
